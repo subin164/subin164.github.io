@@ -1,0 +1,66 @@
+.hidden{
+    display: none;
+}
+.white{
+    color:white
+}
+
+body {
+    background-image: url('/Img/background_1920.jpg');
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: white;
+}
+a{
+    color: white;
+}
+input {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: none;
+    appearance: none;
+    color: white;
+    border: none; 
+}
+.centerDiv{
+    margin-left: 25%;
+    width: 50%;
+    height: auto;
+}
+
+input::placeholder{
+    color: white;
+    font-size: large;
+}
+
+#clock{
+    font-size: 10em;
+}
+
+
+#weather{
+    text-align: right;
+}
+
+li{
+    padding-top: 10px;
+    color: white;
+    font-size: 2em;
+}
+
+#quote span{
+    color: white;
+}
+
+.right{
+    text-align: right;
+}
+
+#todo-form{
+    margin-top: 5%;
+}
